@@ -7,7 +7,6 @@ INDEX VERSION 1.131+C:\Users\ELCOT\eclipse-workspace\.metadata\.plugins\org.ecli
 1881159359.index
 3551732367.index
 263571986.index
-2863008670.index
 396564891.index
 105917248.index
 193700590.index
