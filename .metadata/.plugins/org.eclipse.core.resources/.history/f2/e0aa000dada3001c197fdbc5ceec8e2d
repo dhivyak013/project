@@ -1,0 +1,20 @@
+package org.java;
+
+//import java.util.Scanner;
+
+
+public class Java   {
+
+		public void empName()
+	{
+		System.out.println("emp name is dhivya");
+	}
+
+		public void Savings() {
+			// TODO Auto-generated method stub
+			
+		}
+	
+	
+
+}

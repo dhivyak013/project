@@ -1,0 +1,19 @@
+package org.java;
+
+import org.id.Javaa;
+
+public class Java extends Javaa {
+
+	public void tamilLan()
+	{
+		System.out.println("tamil language");
+	}
+
+	public static void main(String[] args)
+	{
+		Java j = new Java();
+		j.tamilLan();
+		j.engLan();
+	}
+
+}

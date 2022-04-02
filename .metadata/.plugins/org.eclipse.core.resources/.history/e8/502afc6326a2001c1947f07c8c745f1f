@@ -1,0 +1,32 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class Project {
+
+	
+	public static void main(String[] args) {
+
+		// Launching the Browser
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Laptop3\\eclipse-workspace\\Test1'\\driver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("http://www.greenstech.in/selenium-course-content.html");
+		
+		WebElement btnCourse = driver.findElement(By.xpath("//div[@title='Courses']"));
+		Actions a = new Actions(driver);
+		a.moveToElement(btnCourse).perform();
+		
+		WebElement btnOracle = driver.findElement(By.xpath("//span[text()='Oracle (48)']"));
+		a.moveToElement(btnOracle).perform();
+		
+		
+	
+
+	}
+	
+
+}

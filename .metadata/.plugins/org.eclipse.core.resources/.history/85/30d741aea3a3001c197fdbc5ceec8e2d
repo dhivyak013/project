@@ -1,0 +1,27 @@
+package org.java;
+
+
+public class Java  {
+
+	public void empId(int i)
+	{
+		System.out.println("emp id id"+i);
+	}
+
+	public void empName(String name)
+	{
+		System.out.println("emp name is"+name);
+	}
+	public void empSal(float f,double d)
+	{
+		System.out.println("emp sal1 is"+f+"\n"+"emp sal2 is"+d);
+	}
+	public static void main(String[] args)
+	{
+		Java j= new Java();
+		j.empId(12);
+		j.empName("dhivya");
+		j.empSal(2.566f, 2.34344);
+	}
+
+}

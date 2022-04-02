@@ -1,0 +1,19 @@
+package org.id;
+
+import org.java.Java;
+
+public class Javaa extends Java {
+	
+	public void empName()
+	{
+		System.out.println("emp name is harini");
+		//super.Savings();
+	}
+	public static void main(String[] args)
+	{
+		
+		Javaa j= new Javaa();
+		//j.empId();
+		j.empName();
+	}
+}

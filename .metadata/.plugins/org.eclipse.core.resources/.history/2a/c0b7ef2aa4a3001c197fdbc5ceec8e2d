@@ -1,0 +1,27 @@
+package org.java;
+
+//import java.util.Scanner;
+
+import org.id.Javaa;
+
+public class Java extends Javaa {
+
+	public void empId()
+	{
+		System.out.println("empid is 10");
+	}
+
+	public void empName()
+	{
+		System.out.println("emp name is dhivya");
+	}
+	
+	public static void main(String[] args)
+	{
+		
+		Java j= new Java();
+		j.empId();
+		j.empName();
+	}
+
+}

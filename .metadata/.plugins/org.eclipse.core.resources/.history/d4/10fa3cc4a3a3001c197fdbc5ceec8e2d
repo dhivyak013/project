@@ -1,0 +1,11 @@
+package org.id;
+
+public class Javaa {
+	
+	public void empName(String name)
+	{
+		System.out.println("emp name is harini");
+		//super.Savings();
+	}
+
+}

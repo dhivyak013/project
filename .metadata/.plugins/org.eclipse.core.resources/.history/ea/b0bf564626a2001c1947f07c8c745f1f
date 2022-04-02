@@ -1,0 +1,13 @@
+
+public class Project {
+
+	public void company()
+	{
+		System.out.println("dhivya");
+	}
+	public static void main(String[] args) {
+		Project p = new Project();
+		p.company();
+	}
+
+}
